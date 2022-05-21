@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link{
+    @apply text-black font-normal text-lg  text-center py-3  duration-500 relative uppercase;
+}
+.linea{
+    @apply absolute w-full h-[0.5px] bg-[#0668E1]  dark:bg-[#0668E1]  scale-x-0 hover:mx-4 ;
+}
+.hover{
+    @apply hover:px-4 duration-500;
+}
+.link-footer{
+    @apply font-medium px-2 text-sm relative dark:text-white;
+}
